@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-cards</title>
+</head>
+<style>
+    #container
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 70px;
+        margin: 30px 50px;
+    }
+    #container div
+    {
+        border: 2px solid brown;
+        border-radius: 30px;
+        text-align: center;
+        height: 320px;
+        background-color: coral;
+        box-shadow: 0px 0px 20px brown;
+    }
+    img
+    {
+        width: 250px;
+        margin-top: 20px;
+    }
+    p
+    {
+        font-weight: 700;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+    }
+    a
+    {
+        text-decoration: none;
+        border: 5px solid brown;
+        font-size: 20px;
+        padding: 10px 20px;
+        color: black;
+        box-shadow: 5px 3px 2px brown;
+    }
+    body
+    {
+        background-color: black;
+    }
+</style>
+<body>
+    <div id="container">
+        <div><img src="https://m.media-amazon.com/images/I/61gEcvCLMNL._AC_UL320_.jpg" alt=""><p>Window AC</p><a href="https://www.amazon.in/Voltas-Window-183-Vectra-Pearl/dp/B0BSJ7KZLJ/ref=sr_1_4?_encoding=UTF8&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&dib=eyJ2IjoiMSJ9.LpujZ4uISPUK8sa_6yNGVTLp2_seTR9samDUOPD7O24PE2kANyrymdZzhCoNMjavoFsrMDrEfmW4NSXynccTI2K8IvTfXwV-qMalaE9wpOnxG-LJ8p2OAHma3vHFmKuqeLe3qCO4mXaa34_dWFKRg5SEAwWNVbmLxDP5pRrDtIzUcPZP_eHlgQqWVaO6y4VmMgux_DePJ6pg4_dxjo9ZJMsA0g4zMthCSXsuY5oChXCoMnPZW5rcBukOXmoi6NOC9tudxYSh2lgc9XL-0zWkU0SU8mW6Aws401HK93u3l3Y.uFuDUAZpyDpNJhxf2EYql3CGud_0p_WxBwEG0-wMyLI&dib_tag=se&pd_rd_r=26300bcd-7979-41d2-9634-7d8c79188cdc&pd_rd_w=Z5loN&pd_rd_wg=LmaRm&qid=1750657561&refinements=p_85%3A10440599031&rps=1&s=kitchen&sr=1-4&th=1" target="_blank">Buy Now!</a></div>
+        <div><img src="https://m.media-amazon.com/images/I/61gEcvCLMNL._AC_UL320_.jpg" alt=""><p>Window AC</p><a href="https://www.amazon.in/Voltas-Window-183-Vectra-Pearl/dp/B0BSJ7KZLJ/ref=sr_1_4?_encoding=UTF8&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&dib=eyJ2IjoiMSJ9.LpujZ4uISPUK8sa_6yNGVTLp2_seTR9samDUOPD7O24PE2kANyrymdZzhCoNMjavoFsrMDrEfmW4NSXynccTI2K8IvTfXwV-qMalaE9wpOnxG-LJ8p2OAHma3vHFmKuqeLe3qCO4mXaa34_dWFKRg5SEAwWNVbmLxDP5pRrDtIzUcPZP_eHlgQqWVaO6y4VmMgux_DePJ6pg4_dxjo9ZJMsA0g4zMthCSXsuY5oChXCoMnPZW5rcBukOXmoi6NOC9tudxYSh2lgc9XL-0zWkU0SU8mW6Aws401HK93u3l3Y.uFuDUAZpyDpNJhxf2EYql3CGud_0p_WxBwEG0-wMyLI&dib_tag=se&pd_rd_r=26300bcd-7979-41d2-9634-7d8c79188cdc&pd_rd_w=Z5loN&pd_rd_wg=LmaRm&qid=1750657561&refinements=p_85%3A10440599031&rps=1&s=kitchen&sr=1-4&th=1" target="_blank">Buy Now!</a></div>
+        <div><img src="https://m.media-amazon.com/images/I/61gEcvCLMNL._AC_UL320_.jpg" alt=""><p>Window AC</p><a href="https://www.amazon.in/Voltas-Window-183-Vectra-Pearl/dp/B0BSJ7KZLJ/ref=sr_1_4?_encoding=UTF8&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&dib=eyJ2IjoiMSJ9.LpujZ4uISPUK8sa_6yNGVTLp2_seTR9samDUOPD7O24PE2kANyrymdZzhCoNMjavoFsrMDrEfmW4NSXynccTI2K8IvTfXwV-qMalaE9wpOnxG-LJ8p2OAHma3vHFmKuqeLe3qCO4mXaa34_dWFKRg5SEAwWNVbmLxDP5pRrDtIzUcPZP_eHlgQqWVaO6y4VmMgux_DePJ6pg4_dxjo9ZJMsA0g4zMthCSXsuY5oChXCoMnPZW5rcBukOXmoi6NOC9tudxYSh2lgc9XL-0zWkU0SU8mW6Aws401HK93u3l3Y.uFuDUAZpyDpNJhxf2EYql3CGud_0p_WxBwEG0-wMyLI&dib_tag=se&pd_rd_r=26300bcd-7979-41d2-9634-7d8c79188cdc&pd_rd_w=Z5loN&pd_rd_wg=LmaRm&qid=1750657561&refinements=p_85%3A10440599031&rps=1&s=kitchen&sr=1-4&th=1" target="_blank">Buy Now!</a></div>
+        <div><img src="https://m.media-amazon.com/images/I/61gEcvCLMNL._AC_UL320_.jpg" alt=""><p>Window AC</p><a href="https://www.amazon.in/Voltas-Window-183-Vectra-Pearl/dp/B0BSJ7KZLJ/ref=sr_1_4?_encoding=UTF8&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&dib=eyJ2IjoiMSJ9.LpujZ4uISPUK8sa_6yNGVTLp2_seTR9samDUOPD7O24PE2kANyrymdZzhCoNMjavoFsrMDrEfmW4NSXynccTI2K8IvTfXwV-qMalaE9wpOnxG-LJ8p2OAHma3vHFmKuqeLe3qCO4mXaa34_dWFKRg5SEAwWNVbmLxDP5pRrDtIzUcPZP_eHlgQqWVaO6y4VmMgux_DePJ6pg4_dxjo9ZJMsA0g4zMthCSXsuY5oChXCoMnPZW5rcBukOXmoi6NOC9tudxYSh2lgc9XL-0zWkU0SU8mW6Aws401HK93u3l3Y.uFuDUAZpyDpNJhxf2EYql3CGud_0p_WxBwEG0-wMyLI&dib_tag=se&pd_rd_r=26300bcd-7979-41d2-9634-7d8c79188cdc&pd_rd_w=Z5loN&pd_rd_wg=LmaRm&qid=1750657561&refinements=p_85%3A10440599031&rps=1&s=kitchen&sr=1-4&th=1" target="_blank">Buy Now!</a></div>
+        <div><img src="https://m.media-amazon.com/images/I/61gEcvCLMNL._AC_UL320_.jpg" alt=""><p>Window AC</p><a href="https://www.amazon.in/Voltas-Window-183-Vectra-Pearl/dp/B0BSJ7KZLJ/ref=sr_1_4?_encoding=UTF8&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&dib=eyJ2IjoiMSJ9.LpujZ4uISPUK8sa_6yNGVTLp2_seTR9samDUOPD7O24PE2kANyrymdZzhCoNMjavoFsrMDrEfmW4NSXynccTI2K8IvTfXwV-qMalaE9wpOnxG-LJ8p2OAHma3vHFmKuqeLe3qCO4mXaa34_dWFKRg5SEAwWNVbmLxDP5pRrDtIzUcPZP_eHlgQqWVaO6y4VmMgux_DePJ6pg4_dxjo9ZJMsA0g4zMthCSXsuY5oChXCoMnPZW5rcBukOXmoi6NOC9tudxYSh2lgc9XL-0zWkU0SU8mW6Aws401HK93u3l3Y.uFuDUAZpyDpNJhxf2EYql3CGud_0p_WxBwEG0-wMyLI&dib_tag=se&pd_rd_r=26300bcd-7979-41d2-9634-7d8c79188cdc&pd_rd_w=Z5loN&pd_rd_wg=LmaRm&qid=1750657561&refinements=p_85%3A10440599031&rps=1&s=kitchen&sr=1-4&th=1" target="_blank">Buy Now!</a></div>
+        <div><img src="https://m.media-amazon.com/images/I/61gEcvCLMNL._AC_UL320_.jpg" alt=""><p>Window AC</p><a href="https://www.amazon.in/Voltas-Window-183-Vectra-Pearl/dp/B0BSJ7KZLJ/ref=sr_1_4?_encoding=UTF8&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&dib=eyJ2IjoiMSJ9.LpujZ4uISPUK8sa_6yNGVTLp2_seTR9samDUOPD7O24PE2kANyrymdZzhCoNMjavoFsrMDrEfmW4NSXynccTI2K8IvTfXwV-qMalaE9wpOnxG-LJ8p2OAHma3vHFmKuqeLe3qCO4mXaa34_dWFKRg5SEAwWNVbmLxDP5pRrDtIzUcPZP_eHlgQqWVaO6y4VmMgux_DePJ6pg4_dxjo9ZJMsA0g4zMthCSXsuY5oChXCoMnPZW5rcBukOXmoi6NOC9tudxYSh2lgc9XL-0zWkU0SU8mW6Aws401HK93u3l3Y.uFuDUAZpyDpNJhxf2EYql3CGud_0p_WxBwEG0-wMyLI&dib_tag=se&pd_rd_r=26300bcd-7979-41d2-9634-7d8c79188cdc&pd_rd_w=Z5loN&pd_rd_wg=LmaRm&qid=1750657561&refinements=p_85%3A10440599031&rps=1&s=kitchen&sr=1-4&th=1" target="_blank">Buy Now!</a></div>
+        <div><img src="https://m.media-amazon.com/images/I/61gEcvCLMNL._AC_UL320_.jpg" alt=""><p>Window AC</p><a href="https://www.amazon.in/Voltas-Window-183-Vectra-Pearl/dp/B0BSJ7KZLJ/ref=sr_1_4?_encoding=UTF8&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&dib=eyJ2IjoiMSJ9.LpujZ4uISPUK8sa_6yNGVTLp2_seTR9samDUOPD7O24PE2kANyrymdZzhCoNMjavoFsrMDrEfmW4NSXynccTI2K8IvTfXwV-qMalaE9wpOnxG-LJ8p2OAHma3vHFmKuqeLe3qCO4mXaa34_dWFKRg5SEAwWNVbmLxDP5pRrDtIzUcPZP_eHlgQqWVaO6y4VmMgux_DePJ6pg4_dxjo9ZJMsA0g4zMthCSXsuY5oChXCoMnPZW5rcBukOXmoi6NOC9tudxYSh2lgc9XL-0zWkU0SU8mW6Aws401HK93u3l3Y.uFuDUAZpyDpNJhxf2EYql3CGud_0p_WxBwEG0-wMyLI&dib_tag=se&pd_rd_r=26300bcd-7979-41d2-9634-7d8c79188cdc&pd_rd_w=Z5loN&pd_rd_wg=LmaRm&qid=1750657561&refinements=p_85%3A10440599031&rps=1&s=kitchen&sr=1-4&th=1" target="_blank">Buy Now!</a></div>
+        <div><img src="https://m.media-amazon.com/images/I/61gEcvCLMNL._AC_UL320_.jpg" alt=""><p>Window AC</p><a href="https://www.amazon.in/Voltas-Window-183-Vectra-Pearl/dp/B0BSJ7KZLJ/ref=sr_1_4?_encoding=UTF8&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&dib=eyJ2IjoiMSJ9.LpujZ4uISPUK8sa_6yNGVTLp2_seTR9samDUOPD7O24PE2kANyrymdZzhCoNMjavoFsrMDrEfmW4NSXynccTI2K8IvTfXwV-qMalaE9wpOnxG-LJ8p2OAHma3vHFmKuqeLe3qCO4mXaa34_dWFKRg5SEAwWNVbmLxDP5pRrDtIzUcPZP_eHlgQqWVaO6y4VmMgux_DePJ6pg4_dxjo9ZJMsA0g4zMthCSXsuY5oChXCoMnPZW5rcBukOXmoi6NOC9tudxYSh2lgc9XL-0zWkU0SU8mW6Aws401HK93u3l3Y.uFuDUAZpyDpNJhxf2EYql3CGud_0p_WxBwEG0-wMyLI&dib_tag=se&pd_rd_r=26300bcd-7979-41d2-9634-7d8c79188cdc&pd_rd_w=Z5loN&pd_rd_wg=LmaRm&qid=1750657561&refinements=p_85%3A10440599031&rps=1&s=kitchen&sr=1-4&th=1" target="_blank">Buy Now!</a></div>
+        <div><img src="https://m.media-amazon.com/images/I/61gEcvCLMNL._AC_UL320_.jpg" alt=""><p>Window AC</p><a href="https://www.amazon.in/Voltas-Window-183-Vectra-Pearl/dp/B0BSJ7KZLJ/ref=sr_1_4?_encoding=UTF8&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&dib=eyJ2IjoiMSJ9.LpujZ4uISPUK8sa_6yNGVTLp2_seTR9samDUOPD7O24PE2kANyrymdZzhCoNMjavoFsrMDrEfmW4NSXynccTI2K8IvTfXwV-qMalaE9wpOnxG-LJ8p2OAHma3vHFmKuqeLe3qCO4mXaa34_dWFKRg5SEAwWNVbmLxDP5pRrDtIzUcPZP_eHlgQqWVaO6y4VmMgux_DePJ6pg4_dxjo9ZJMsA0g4zMthCSXsuY5oChXCoMnPZW5rcBukOXmoi6NOC9tudxYSh2lgc9XL-0zWkU0SU8mW6Aws401HK93u3l3Y.uFuDUAZpyDpNJhxf2EYql3CGud_0p_WxBwEG0-wMyLI&dib_tag=se&pd_rd_r=26300bcd-7979-41d2-9634-7d8c79188cdc&pd_rd_w=Z5loN&pd_rd_wg=LmaRm&qid=1750657561&refinements=p_85%3A10440599031&rps=1&s=kitchen&sr=1-4&th=1" target="_blank">Buy Now!</a></div>
+    </div>
+</body>
+</html>
